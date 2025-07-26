@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-analytics.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCdcN6ZALasysYRxw5XPjurEygMgWSGD-4",
+      authDomain: "skillsena-4febf.firebaseapp.com",
+      projectId: "skillsena-4febf",
+      storageBucket: "skillsena-4febf.firebasestorage.app",
+      messagingSenderId: "543480050891",
+      appId: "1:543480050891:web:636fc372b6f6b5b689174e",
+      measurementId: "G-66GMXPHT49"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <meta charset="UTF-8">
+  <title>Roshan Game - Welcome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      text-align: center;
+      padding: 60px;
+      font-family: Arial, sans-serif;
+      background: #dff9fb;
+    }
+
+    h1 {
+      color: #130f40;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 20px;
+      padding: 14px 30px;
+      font-size: 16px;
+      background: #0984e3;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #0652dd;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to skillsena</h1>
+  <a class="btn" href="login.html">Login</a>
+  <a class="btn" href="register.html">Register</a>
+
+</body>
+</html>
